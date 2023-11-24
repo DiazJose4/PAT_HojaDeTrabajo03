@@ -9,7 +9,7 @@ Node<int>* Ejercicio03::copyList(Node<int>* head)
 
     Node<int>* actual = head;
 
-    //Duplicados/Cambio
+    //Duplicados_Cambio
     while (actual != nullptr) {
         Node<int>* copyNode = new Node<int>;
         int data = actual->value;
