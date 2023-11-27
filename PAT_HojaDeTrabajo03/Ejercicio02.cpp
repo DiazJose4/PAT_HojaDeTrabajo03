@@ -23,11 +23,7 @@ vector<vector<string>>* Ejercicio02::groupAnagrams(vector<string>& strings)
         *it = group.second;
         ++it;
     }
-    /* auto result = new std::vector<std::vector<std::string>>;
     
-    for (const auto& group : anagramGroups) {
-        result->push_back(group.second);
-    }*/
    
 
     return result;
